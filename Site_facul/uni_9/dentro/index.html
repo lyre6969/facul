@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Monitoramento | Transfrio</title>
+</head>
+<body>
+    
+    <div id="area-cabecalho">
+
+        <div id="area-logo">
+            <h1>Trans<span class="branco">Frio</span></h1>
+        </div>
+
+        <div id="area-menu">
+            <a href="index.html">Home</a>
+            <a href="../frente/index.html"><button class="btn">voltar</button></a>
+        </div>
+
+    </div>                                                  
+
+    
+ <div id="tabela">
+    <h2>Monitoramento</h2> 
+    <label for="CampoBusca">Busca:</label><input type="text" id="CampoBusca" placeholder="Buscar placa/atributo" onkeyup="filtraTabela()">
+    <table id="placas">
+        <thead>
+            <tr>
+                <th>Placa</th>
+                <th>Modelo</th>
+                <th>Motorista</th>
+                <th>Temperatura</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ABC-1234</td>
+                <td>Hyundai</td>
+                <td>João Silva</td>
+                <td>25°C</td>
+            </tr>
+            <tr>
+                <td>XYZ-5678</td>
+                <td>Scania</td>
+                <td>Maria Oliveira</td>
+                <td>27°C</td>
+            </tr>
+            <tr>
+                <td>DEF-9012</td>
+                <td>Volvo</td>
+                <td>Pedro Santos</td>
+                <td>22°C</td>
+            </tr>
+            <tr>
+                <td>GHI-3456</td>
+                <td>Volkswagen</td>
+                <td>Ana Costa</td>
+                <td>26°C</td>
+            </tr>
+            
+            <tr>
+                <td>LMN-3556</td>
+                <td>Hyundai</td>
+                <td>Jorge Capadócia</td>
+                <td>40°C</td>
+            </tr>
+            
+            <tr>
+                <td>JRI-8D26</td>
+                <td>Chevrolet</td>
+                <td>Eduardo</td>
+                <td>1°C</td>
+            </tr>
+
+            <tr>
+                <td>MTC-8188</td>
+                <td>KIA</td>
+                <td>Marcos</td>
+                <td>12°C</td>
+            </tr>
+
+            <tr>
+                <td>CDC-2054</td>
+                <td>TOWNER</td>
+                <td>Renan</td>
+                <td>70°C</td>
+            </tr>
+
+            <tr>
+                <td>MRL-5544</td>
+                <td>Volkswagen</td>
+                <td>Maurilio</td>
+                <td>80°C</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+    
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

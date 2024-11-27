@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(162, 23%, 89%);
+}
+
+#area-cabecalho{
+    background-color: hsl(160, 28%, 58%);
+    padding: 15px;
+    text-align: center;
+}
+
+h1{
+    color:hsl(180, 78%, 23%);
+    font-size: 2.5em;
+}
+
+.branco{
+    color: #FFFF;
+}
+
+a:link, a:visited{
+    color:#FFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    color:hsl(180, 78%, 23%); 
+}
+
+#quem-somos{
+    float:left;
+    margin-top: 5%;
+    width: 650px;
+    height: 400px;
+}
+
+#quem-somos img{
+    width: 100%;
+    height: 100%;
+}
+
+#apresentacao{
+    float: right;
+    width: 650px;
+    margin-top: 5%;
+    text-align: justify;
+    height: 400px;
+    line-height: 1.3;
+    color:hsl(0, 0%, 0%);
+}
+
+#funcionarios{
+    float:right;
+    margin-top: 5%;
+    width: 650px;
+    height: 400px;
+}
+
+#funcionarios img{
+    width: 100%;
+    height: 100%;
+}
+
+#funcionarios-txt{
+    float: left;
+    width: 650px;
+    margin-top: 5%;
+    text-align: justify;
+    height: 400px;
+    line-height: 1.3;
+    color:hsl(0, 0%, 0%);
+}
